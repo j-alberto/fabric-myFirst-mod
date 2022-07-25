@@ -1,9 +1,9 @@
 package net.jalberto.vanillae.block;
 
-import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.jalberto.vanillae.VanillaeMod;
+import net.jalberto.vanillae.block.custom.JumpyBlock;
 import net.jalberto.vanillae.item.ModItemGroup;
 import net.minecraft.block.Block;
 import net.minecraft.block.Material;
@@ -33,6 +33,11 @@ public class ModBlocks  {
                     .strength(4f)
                     .requiresTool(),
                 UniformIntProvider.create(3, 7)),
+            ModItemGroup.MICHIORITE);
+    public static final Block JUMPY_BLOCK =  registerBlock("jumpy_block",
+            new JumpyBlock(FabricBlockSettings.of(Material.STONE)
+                    .strength(4f)
+                    .requiresTool()),
             ModItemGroup.MICHIORITE);
 
     public static void registerModBlocks() {

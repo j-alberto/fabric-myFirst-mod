@@ -1,11 +1,13 @@
 {
   "item.vanillae.raw_michiorite": "Michiorita en Bruto",
   "item.vanillae.michiorite": "Michiorita",
+  "item.vanillae.eight_ball": "Bola Ocho",
+  "item.vanillae.eight_ball.use": "Diste click derecho!!",
 
   "itemGroup.vanillae.michiorite": "Pestaña de Michiorita",
 
   "block.vanillae.michiorite_block": "Bloque de Michiorita",
   "block.vanillae.michiorite_ore": "Mineral de Michiorita",
-  "block.vanillae.deepslate_michiorite_ore": "Mineral de Michiorita de Pizarra Profunda"
-
+  "block.vanillae.deepslate_michiorite_ore": "Mineral de Michiorita de Pizarra Profunda",
+  "block.vanillae.jumpy_block": "Bloque Saltarín"
 }

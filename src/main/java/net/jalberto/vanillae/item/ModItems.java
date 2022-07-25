@@ -9,8 +9,8 @@ import net.minecraft.util.registry.Registry;
 
 public class ModItems {
 
-    public static final Item RAW_MICHIORITE  = registerItem("raw_michiorite", new Item(new FabricItemSettings().group(ItemGroup.MISC)));
-    public static final Item MICHIORITE = registerItem("michiorite", new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item RAW_MICHIORITE  = registerItem("raw_michiorite", new Item(new FabricItemSettings().group(ModItemGroup.MICHIORITE)));
+    public static final Item MICHIORITE = registerItem("michiorite", new Item(new FabricItemSettings().group(ModItemGroup.MICHIORITE)));
 
     public static void registerModItems() {
         VanillaeMod.LOGGER.debug("Registering Mod Items for " + VanillaeMod.MOD_ID);

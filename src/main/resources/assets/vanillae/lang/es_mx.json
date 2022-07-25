@@ -1,4 +1,11 @@
 {
   "item.vanillae.raw_michiorite": "Michiorita en Bruto",
-  "item.vanillae.michiorite": "Michiorita"
+  "item.vanillae.michiorite": "Michiorita",
+
+  "itemGroup.vanillae.michiorite": "Pestaña de Michiorita",
+
+  "block.vanillae.michiorite_block": "Bloque de Michiorita",
+  "block.vanillae.michiorite_ore": "Mineral de Michiorita",
+  "block.vanillae.deepslate_michiorite_ore": "Mineral de Michiorita de Pizarra Profunda"
+
 }

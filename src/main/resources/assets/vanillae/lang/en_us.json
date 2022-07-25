@@ -1,4 +1,10 @@
 {
   "item.vanillae.raw_michiorite": "Raw Michiorite",
-  "item.vanillae.michiorite": "Michiorite"
+  "item.vanillae.michiorite": "Michiorite",
+
+  "itemGroup.vanillae.michiorite": "Michiorite Tab",
+
+  "block.vanillae.michiorite_block": "Block of Michiorite",
+  "block.vanillae.michiorite_ore": "Michiorite Ore",
+  "block.vanillae.deepslate_michiorite_ore": "Deepslate Michiorite Ore"
 }

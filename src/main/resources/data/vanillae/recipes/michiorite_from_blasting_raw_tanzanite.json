@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "cooking_time": 100,
+  "experience": 0.7,
+  "group": "michiorite",
+  "ingredient": {
+    "item": "vanillae:raw_michiorite"
+  },
+  "result":  "vanillae:michiorite"
+}

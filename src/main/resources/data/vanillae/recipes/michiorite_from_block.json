@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "vanillae:michiorite_block"
+    }
+  ],
+  "result": {
+    "item": "vanillae:michiorite",
+    "count": 9
+  }
+}

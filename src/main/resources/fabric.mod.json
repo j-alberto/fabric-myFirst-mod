@@ -1,29 +1,32 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "vanillae",
   "version": "${version}",
 
   "name": "Example Mod",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
-    "Me!"
+    "jalberto"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "MIT License",
+  "icon": "assets/vanillae/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.jalberto.vanillae.VanillaeMod"
+    ],
+    "client": [
+      "net.jalberto.vanillae.VanillaeModClient"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "vanillae.mixins.json"
   ],
 
   "depends": {

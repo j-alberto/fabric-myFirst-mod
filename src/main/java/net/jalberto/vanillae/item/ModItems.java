@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.jalberto.vanillae.VanillaeMod;
 import net.jalberto.vanillae.block.ModBlocks;
 import net.jalberto.vanillae.item.custom.EightBallItem;
+import net.jalberto.vanillae.item.custom.ModToolMaterials;
 import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
@@ -31,6 +32,13 @@ public class ModItems {
                             .saturationModifier(4f)
                             .build())));
 
+    public static final Item RUBY = registerItem("ruby",
+            new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
+
+    public static final Item EMERALD_SWORD = registerItem("emerald_sword",
+            new SwordItem(ModToolMaterials.EMERALD,3,-2.4f,new FabricItemSettings().group(ItemGroup.COMBAT)));
+    public static final Item RUBY_SWORD = registerItem("ruby_sword",
+            new SwordItem(ModToolMaterials.RUBY,3,-2.4f,new FabricItemSettings().group(ItemGroup.COMBAT)));
 
     public static void registerModItems() {
         VanillaeMod.LOGGER.debug("Registering Mod Items for " + VanillaeMod.MOD_ID);

@@ -8,7 +8,6 @@ import net.minecraft.client.render.RenderLayer;
 public class VanillaeModClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
-
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.EGGPLANT_CROP, RenderLayer.getCutout());
     }
 }

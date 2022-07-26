@@ -2,15 +2,21 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "###",
-    "###",
-    "###"
+    "#R#",
+    "#.#"
   ],
   "key": {
     "#": {
       "item": "vanillae:michiorite"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    ".": {
+      "tag": "minecraft:buttons"
     }
   },
   "result": {
-    "item": "vanillae:michiorite_block"
+    "item": "vanillae:michiorite_lamp"
   }
 }

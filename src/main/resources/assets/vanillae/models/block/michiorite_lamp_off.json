@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "vanillae:block/michiorite_lamp_on"
+    "all": "vanillae:block/michiorite_lamp_off"
   }
 }

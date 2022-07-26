@@ -1,7 +1,10 @@
 {
   "variants": {
-    "": {
-      "model": "vanillae:block/michiorite_block"
+    "lit=true": {
+      "model": "vanillae:block/michiorite_lamp_on"
+    },
+    "lit=false": {
+      "model": "vanillae:block/michiorite_lamp_off"
     }
   }
 }

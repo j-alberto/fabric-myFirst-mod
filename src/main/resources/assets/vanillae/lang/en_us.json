@@ -3,11 +3,17 @@
   "item.vanillae.michiorite": "Michiorite",
   "item.vanillae.eight_ball": "Eight Ball",
   "item.vanillae.eight_ball.use": "Right clicked this!!",
+  "item.vanillae.eight.ball.tooltip": "Press SHIFT for more info",
+  "item.vanillae.eight.ball.shift_tooltip": "Right Click to get a random number",
+  "item.vanillae.eggplant": "Eggplant",
+  "item.vanillae.eggplant_seeds": "Eggplant Seeds",
 
   "itemGroup.vanillae.michiorite": "Michiorite Tab",
 
   "block.vanillae.michiorite_block": "Block of Michiorite",
   "block.vanillae.michiorite_ore": "Michiorite Ore",
   "block.vanillae.deepslate_michiorite_ore": "Deepslate Michiorite Ore",
-  "block.vanillae.jumpy_block": "Jumpy Block"
+  "block.vanillae.jumpy_block": "Jumpy Block",
+  "block.vanillae.michiorite_lamp": "Michiorite Lamp",
+  "block.vanillae.eggplant_crop": "Eggplant Crop"
 }

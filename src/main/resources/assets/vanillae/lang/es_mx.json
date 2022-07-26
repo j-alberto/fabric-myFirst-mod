@@ -3,11 +3,17 @@
   "item.vanillae.michiorite": "Michiorita",
   "item.vanillae.eight_ball": "Bola Ocho",
   "item.vanillae.eight_ball.use": "Diste click derecho!!",
+  "item.vanillae.eight.ball.tooltip": "Presione SHIFT para saber más",
+  "item.vanillae.eight.ball.shift_tooltip": "Da Click Derecho para obtener un número aleatorio",
+  "item.vanillae.eggplant": "Berenjena",
+  "item.vanillae.eggplant_seeds": "Semillas de Berenjena",
 
   "itemGroup.vanillae.michiorite": "Pestaña de Michiorita",
 
   "block.vanillae.michiorite_block": "Bloque de Michiorita",
   "block.vanillae.michiorite_ore": "Mineral de Michiorita",
   "block.vanillae.deepslate_michiorite_ore": "Mineral de Michiorita de Pizarra Profunda",
-  "block.vanillae.jumpy_block": "Bloque Saltarín"
+  "block.vanillae.jumpy_block": "Bloque Saltarín",
+  "block.vanillae.michiorite_lamp": "Lámpara de Michiorita",
+  "block.vanillae.eggplant_crop": "Cultivo de Berenjena"
 }

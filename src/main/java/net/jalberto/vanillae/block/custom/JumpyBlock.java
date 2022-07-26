@@ -31,8 +31,9 @@ public class JumpyBlock extends Block {
 
     @Override
     public ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit) {
-
-        player.sendMessage(Text.translatable("item.vanillae.eight_ball.use"));
+        if(!world.isClient() && hand == Hand.MAIN_HAND) {
+            player.sendMessage(Text.translatable("item.vanillae.eight_ball.use"));
+        }
         return super.onUse(state, world, pos, player, hand, hit);
     }
 }

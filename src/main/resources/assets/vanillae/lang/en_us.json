@@ -15,5 +15,7 @@
   "block.vanillae.deepslate_michiorite_ore": "Deepslate Michiorite Ore",
   "block.vanillae.jumpy_block": "Jumpy Block",
   "block.vanillae.michiorite_lamp": "Michiorite Lamp",
-  "block.vanillae.eggplant_crop": "Eggplant Crop"
+  "block.vanillae.eggplant_crop": "Eggplant Crop",
+
+  "entity.minecraft.villager.jumper": "Jumper"
 }

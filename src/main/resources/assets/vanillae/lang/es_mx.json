@@ -15,5 +15,7 @@
   "block.vanillae.deepslate_michiorite_ore": "Mineral de Michiorita de Pizarra Profunda",
   "block.vanillae.jumpy_block": "Bloque Saltarín",
   "block.vanillae.michiorite_lamp": "Lámpara de Michiorita",
-  "block.vanillae.eggplant_crop": "Cultivo de Berenjena"
+  "block.vanillae.eggplant_crop": "Cultivo de Berenjena",
+
+  "entity.minecraft.villager.jumper": "Saltarín"
 }

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "addition": {
+    "item": "vanillae:michiorite"
+  },
+  "base": {
+    "item": "minecraft:trident"
+  },
+  "result": {
+    "item": "vanillae:michiorite_trident"
+  }
+}

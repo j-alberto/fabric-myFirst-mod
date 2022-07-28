@@ -39,6 +39,8 @@ public class ModItems {
             new SwordItem(ModToolMaterials.EMERALD,3,-2.4f,new FabricItemSettings().group(ItemGroup.COMBAT)));
     public static final Item RUBY_SWORD = registerItem("ruby_sword",
             new SwordItem(ModToolMaterials.RUBY,3,-2.4f,new FabricItemSettings().group(ItemGroup.COMBAT)));
+    public static final Item MICHIORITE_TRIDENT = registerItem("michiorite_trident",
+            new TridentItem(new Item.Settings().maxDamage(250).group(ItemGroup.COMBAT)));
 
     public static void registerModItems() {
         VanillaeMod.LOGGER.debug("Registering Mod Items for " + VanillaeMod.MOD_ID);

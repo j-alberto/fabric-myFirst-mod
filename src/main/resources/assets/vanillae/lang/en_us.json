@@ -10,6 +10,7 @@
   "item.vanillae.ruby": "Ruby",
   "item.vanillae.ruby_sword": "Ruby Sword",
   "item.vanillae.emerald_sword": "Emerald Sword",
+  "item.vanillae.michiorite_trident": "Michiorite Trident",
 
   "itemGroup.vanillae.michiorite": "Michiorite Tab",
 
@@ -20,5 +21,8 @@
   "block.vanillae.michiorite_lamp": "Michiorite Lamp",
   "block.vanillae.eggplant_crop": "Eggplant Crop",
 
-  "entity.minecraft.villager.jumper": "Jumper"
+  "entity.minecraft.villager.jumper": "Jumper",
+
+  "key.category.vanillae.keybindings": "Vanillae Bindings",
+  "key.vanillae.drink_water": "Drink Water"
 }

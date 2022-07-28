@@ -10,6 +10,7 @@
   "item.vanillae.ruby": "Rubí",
   "item.vanillae.ruby_sword": "Espada de Rubí",
   "item.vanillae.emerald_sword": "Espada de Esmeralda",
+  "item.vanillae.michiorite_trident": "Tridente de Michiorita",
 
   "itemGroup.vanillae.michiorite": "Pestaña de Michiorita",
 
@@ -20,5 +21,8 @@
   "block.vanillae.michiorite_lamp": "Lámpara de Michiorita",
   "block.vanillae.eggplant_crop": "Cultivo de Berenjena",
 
-  "entity.minecraft.villager.jumper": "Saltarín"
+  "entity.minecraft.villager.jumper": "Saltarín",
+
+  "key.category.vanillae.keybindings": "Vanillae",
+  "key.vanillae.drink_water": "Beber Agua"
 }

@@ -1,0 +1,26 @@
+{
+  "ultrawarm": false,
+  "natural": false,
+  "piglin_safe": false,
+  "respawn_anchor_works": true,
+  "bed_works": false,
+  "has_raids": false,
+  "has_skylight": false,
+  "has_ceiling": false,
+  "coordinate_scale": 3,
+  "ambient_light": 0.2,
+  "fixed_time": 13000,
+  "logical_height": 320,
+  "effects": "minecraft:overworld",
+  "infiniburn": "#minecraft:dirt",
+  "min_y": -32,
+  "height": 352,
+  "monster_spawn_light_level": {
+    "type": "minecraft:biased_to_bottom",
+    "value": {
+      "min_inclusive": 0,
+      "max_inclusive": 12
+    }
+  },
+  "monster_spawn_block_light_limit": 12
+}

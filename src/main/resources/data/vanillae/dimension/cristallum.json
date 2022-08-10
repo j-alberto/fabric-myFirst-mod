@@ -1,0 +1,24 @@
+{
+  "type": "vanillae:cristallum",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "minecraft:overworld",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "vanillae:cristalli",
+          "parameters": {
+            "temperature": -1.7,
+            "humidity": 1.5,
+            "continentalness": 1.2,
+            "erosion": 1.8,
+            "weirdness": 0.3,
+            "depth": -0.5,
+            "offset": 0.0
+          }
+        }
+      ]
+    }
+  }
+}

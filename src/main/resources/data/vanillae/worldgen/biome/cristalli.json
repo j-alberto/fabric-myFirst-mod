@@ -1,0 +1,68 @@
+{
+  "temperature": -1.7,
+  "downfall": 1.8,
+  "precipitation": "snow",
+  "temperature_modifier": "frozen",
+  "creature_spawn_probability": 0.3,
+  "effects": {
+    "sky_color": 5505854,
+    "fog_color": 10258072,
+    "water_color": 6030245,
+    "water_fog_color": 2753609,
+    "grass_color": 2602161,
+    "foliage_color": 3052691,
+    "grass_color_modifier": "dark_forest"
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:wither_skeleton",
+        "weight": 0,
+        "minCount": 0,
+        "maxCount": 3
+      },
+      {
+        "type": "minecraft:zombie",
+        "weight": 0,
+        "minCount": 3,
+        "maxCount": 5
+      },
+      {
+        "type": "minecraft:enderman",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "minecraft:phantom",
+        "weight": 1,
+        "minCount": 2,
+        "maxCount": 3
+      }
+    ]
+  },
+  "spawn_costs": {
+    "minecraft:enderman": {
+      "energy_budget": 0.12,
+      "charge": 1
+    },
+    "minecraft:phantom": {
+      "energy_budget": 0.24,
+      "charge": 2
+    }
+  },
+  "carvers": {
+    "air": [
+      "minecraft:canyon",
+      "minecraft:cave"
+    ],
+    "liquid": [
+      "minecraft:cave_extra_underground"
+    ]
+  },
+  "features": [
+    "vanillae:michiorite_ore_placed",
+    "minecraft:gold_ore"
+  ]
+}
+

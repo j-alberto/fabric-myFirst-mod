@@ -1,4 +1,4 @@
-package net.jalberto.vanillae.item.custom;
+package net.jalberto.vanillae.item;
 
 import net.fabricmc.yarn.constants.MiningLevels;
 import net.jalberto.vanillae.item.ModItems;
@@ -10,7 +10,7 @@ import net.minecraft.util.Lazy;
 
 import java.util.function.Supplier;
 
-public enum ModToolMaterials implements ToolMaterial {
+enum ModToolMaterials implements ToolMaterial {
     EMERALD(MiningLevels.IRON, 500, 6.5f, 3.0f, 17, Ingredient.ofItems(Items.EMERALD)),
     RUBY(MiningLevels.IRON, 700, 7.0f, 3.0f, 15, Ingredient.ofItems(ModItems.RUBY));
 

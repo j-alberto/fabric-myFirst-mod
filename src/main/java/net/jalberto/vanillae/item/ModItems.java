@@ -3,8 +3,9 @@ package net.jalberto.vanillae.item;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.jalberto.vanillae.VanillaeMod;
 import net.jalberto.vanillae.block.ModBlocks;
+import net.jalberto.vanillae.entity.ModEntities;
 import net.jalberto.vanillae.item.custom.EightBallItem;
-import net.jalberto.vanillae.item.custom.ModToolMaterials;
+import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
@@ -41,6 +42,26 @@ public class ModItems {
             new SwordItem(ModToolMaterials.RUBY,3,-2.4f,new FabricItemSettings().group(ItemGroup.COMBAT)));
     public static final Item MICHIORITE_TRIDENT = registerItem("michiorite_trident",
             new TridentItem(new Item.Settings().maxDamage(250).group(ItemGroup.COMBAT)));
+
+    public static final Item EMERALD_HELMET = registerItem("emerald_helmet",
+            new ArmorItem(ModArmorMaterials.EMERALD, EquipmentSlot.HEAD, new FabricItemSettings().group(ItemGroup.COMBAT)));
+    public static final Item EMERALD_CHESTPLATE = registerItem("emerald_chestplate",
+            new ArmorItem(ModArmorMaterials.EMERALD, EquipmentSlot.CHEST, new FabricItemSettings().group(ItemGroup.COMBAT)));
+    public static final Item EMERALD_LEGGINGS = registerItem("emerald_leggings",
+            new ArmorItem(ModArmorMaterials.EMERALD, EquipmentSlot.LEGS, new FabricItemSettings().group(ItemGroup.COMBAT)));
+    public static final Item EMERALD_BOOTS = registerItem("emerald_boots",
+            new ArmorItem(ModArmorMaterials.EMERALD, EquipmentSlot.FEET, new FabricItemSettings().group(ItemGroup.COMBAT)));
+    public static final Item RUBY_HELMET = registerItem("ruby_helmet",
+            new ArmorItem(ModArmorMaterials.RUBY, EquipmentSlot.HEAD, new FabricItemSettings().group(ItemGroup.COMBAT)));
+    public static final Item RUBY_CHESTPLATE = registerItem("ruby_chestplate",
+            new ArmorItem(ModArmorMaterials.RUBY, EquipmentSlot.CHEST, new FabricItemSettings().group(ItemGroup.COMBAT)));
+    public static final Item RUBY_LEGGINGS = registerItem("ruby_leggings",
+            new ArmorItem(ModArmorMaterials.RUBY, EquipmentSlot.LEGS, new FabricItemSettings().group(ItemGroup.COMBAT)));
+    public static final Item RUBY_BOOTS = registerItem("ruby_boots",
+            new ArmorItem(ModArmorMaterials.RUBY, EquipmentSlot.FEET, new FabricItemSettings().group(ItemGroup.COMBAT)));
+
+    public static final Item RACCOON_SPAWN_EGG = registerItem("raccoon_spawn_egg",
+            new SpawnEggItem(ModEntities.RACCOON, 0x626867, 0x2b2c2c, new FabricItemSettings().group(ItemGroup.MISC)));
 
     public static void registerModItems() {
         VanillaeMod.LOGGER.debug("Registering Mod Items for " + VanillaeMod.MOD_ID);

@@ -10,6 +10,7 @@
   "item.vanillae.ruby": "Ruby",
   "item.vanillae.ruby_sword": "Ruby Sword",
   "item.vanillae.raccoon_spawn_egg": "Raccoon Spawn Egg",
+  "item.vanillae.herobrine_spawn_egg": "Herobrine Spawn Egg",
 
   "item.vanillae.emerald_sword": "Emerald Sword",
   "item.vanillae.emerald_helmet": "Emerald Helmet",
@@ -29,6 +30,7 @@
   "block.vanillae.eggplant_crop": "Eggplant Crop",
 
   "entity.minecraft.villager.jumper": "Jumper",
+  "entity.vanillae.herobrine": "Herobrine",
 
   "key.category.vanillae.keybindings": "Vanillae Bindings",
   "key.vanillae.drink_water": "Drink Water"

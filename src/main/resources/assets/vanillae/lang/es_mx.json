@@ -10,6 +10,7 @@
   "item.vanillae.ruby": "Rubí",
   "item.vanillae.ruby_sword": "Espada de Rubí",
   "item.vanillae.raccoon_spawn_egg": "Generar Mapache",
+  "item.vanillae.herobrine_spawn_egg": "Generar Herobrine",
 
   "item.vanillae.emerald_sword": "Espada de Esmeralda",
   "item.vanillae.emerald_helmet": "Yelmo de Esmeralda",
@@ -29,6 +30,7 @@
   "block.vanillae.eggplant_crop": "Cultivo de Berenjena",
 
   "entity.minecraft.villager.jumper": "Saltarín",
+  "entity.vanillae.herobrine": "Herobrine",
 
   "key.category.vanillae.keybindings": "Vanillae",
   "key.vanillae.drink_water": "Beber Agua"

@@ -34,7 +34,6 @@ public class ModDimensions {
                         new CPASoundEventData(SoundEvents.BLOCK_PORTAL_TRIGGER, 0.9f, 0.5f))
                 .registerPostTPPortalAmbience(player ->
                         new CPASoundEventData(SoundEvents.BLOCK_PORTAL_TRAVEL, 0.9f, 0.5f))
-                .forcedSize(1,1)
                 .registerPortal();
 
     }

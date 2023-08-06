@@ -62,6 +62,8 @@ public class ModItems {
 
     public static final Item RACCOON_SPAWN_EGG = registerItem("raccoon_spawn_egg",
             new SpawnEggItem(ModEntities.RACCOON, 0x626867, 0x2b2c2c, new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item HEROBRINE_SPAWN_EGG = registerItem("herobrine_spawn_egg",
+            new SpawnEggItem(ModEntities.HEROBRINE, 0x11aba8, 0x6120cf, new FabricItemSettings().group(ItemGroup.MISC)));
 
     public static void registerModItems() {
         VanillaeMod.LOGGER.debug("Registering Mod Items for " + VanillaeMod.MOD_ID);
